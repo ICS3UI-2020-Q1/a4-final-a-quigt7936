@@ -16,7 +16,7 @@ public class Main {
     int numberOn = 1;
 
     // tells the user what the factors are and begins the list
-    System.out.println("The factors of 5 are:");
+    System.out.println("The factors of " + userNumber + " are:");
     
     // perform a loop that stops when the number it's on = the users number
     while (numberOn <= userNumber) {
